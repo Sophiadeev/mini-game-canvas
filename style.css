@@ -1,11 +1,46 @@
 body{
-text-align:center;
-background:#111;
-color:white;
-font-family:Arial;
+    background:#f4f6f8;
 }
 
-canvas{
-background:black;
-border:3px solid white;
+section{
+    min-height:100vh;
+}
+
+.card{
+    max-width:700px;
+    margin:auto;
+    border-radius:20px;
+}
+
+img{
+    border-radius:20px;
+}
+
+.abaixo{
+    color:#007bff;
+}
+
+.normal{
+    color:green;
+}
+
+.sobrepeso{
+    color:orange;
+}
+
+.obesidade{
+    color:red;
+}
+
+/* RESPONSIVIDADE */
+
+@media(max-width:768px){
+
+    h1{
+        font-size:2rem;
+    }
+
+    .card{
+        width:95%;
+    }
 }
